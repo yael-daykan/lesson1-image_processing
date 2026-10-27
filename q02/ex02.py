@@ -35,9 +35,7 @@ print("זיכרון לתמונת 12MP צבעונית בבתים:", img_12mp_byte
 b = np.arange(12).reshape(3, 4)
 print("\nהמערך b:")
 print(b)
-
 print("b.sum():", b.sum())
 print("b.sum(axis=0):", b.sum(axis=0))
 print("b.sum(axis=1):", b.sum(axis=1))
 print("איברים בפינה:", b[2, 3], b[-1, -1])
-
